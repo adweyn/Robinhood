@@ -12,7 +12,7 @@
 .header{
     display: flex;
     margin-left: 24px;
-   
+   padding-bottom: 15px;
 }
 .header-buttons{
     display: flex;
@@ -44,7 +44,8 @@
         list-style: none;
         justify-content: center;
         align-items: center;
-        padding-left: 950px;
+        position: absolute;
+        right: 20px;
         flex-wrap: nowrap;
         grid-gap: 50px;
 }
